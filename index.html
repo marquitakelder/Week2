@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Innocent Eyes See More: An Album Review</title>
+    <style>
+        .heading {
+            background-color: black;
+            color: white;
+            padding: 1px;
+            }
+    </style>
 </head>
 <body>
-   <h1><i>Innocent Eyes See More</i>: An Album Review</h1>
-   <br>
-   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nihil repellendus ex nulla doloremque ut, alias iste vero delectus reprehenderit quam accusantium sint laudantium eius, eos harum fuga reiciendis molestias.</p> 
-   <br>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis sint totam quos assumenda amet animi deleniti magnam vitae commodi, temporibus ipsum architecto harum quis. Excepturi voluptatem numquam molestias debitis.</p>
-   <br>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit ad placeat, reiciendis eligendi, necessitatibus repudiandae ipsum doloribus nisi deserunt pariatur? Voluptates architecto quisquam eaque laboriosam eligendi veniam praesentium doloremque!</p>
-   <br>
-   <h1>TrackList</h1>
-   <table width="300px" height="300px">
+    <h1><i>Innocent Eyes See More</i>: An Album Review</h1>
+    <br>
+    <img src="image.png" alt="Album Cover image for Innocent Eyes See More" height="500" width="500">
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nihil repellendus ex nulla doloremque ut, alias iste vero delectus reprehenderit quam accusantium sint laudantium eius, eos harum fuga reiciendis molestias.</p> 
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis sint totam quos assumenda amet animi deleniti magnam vitae commodi, temporibus ipsum architecto harum quis. Excepturi voluptatem numquam molestias debitis.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit ad placeat, reiciendis eligendi, necessitatibus repudiandae ipsum doloribus nisi deserunt pariatur? Voluptates architecto quisquam eaque laboriosam eligendi veniam praesentium doloremque!</p>
+    <br>
+    <h1>TrackList</h1>
+    <table width="300px" height="300px">
        <tr>
            <th>Name</th>
            <th>Link</th>
@@ -36,9 +46,9 @@
            <td><a href="https://www.youtube.com/watch?v=EXcSXSOeg4M&list=OLAK5uy_lle-uMYzh6EWE_pIvIXYfILTmquAISlMI&index=3" target="_blank">Clean Out The Register - Kendell Malik</a></td>
            <td>3:35</td>
        </tr>
-   </table>
+    </table>
     <h1>Review</h1>
-    <h2>"Public Announcement"</h2>
+    <h2 class="heading">"Public Announcement"</h2>
     <p>I remember this song when it was released as a single. It’s interesting      hearing it on this project. 
     <br>
     <br>
@@ -54,7 +64,7 @@
         The arrangement of the production elements is really good. The song is catchy and the tone feels triumphant. My favorite lines in the song are “Whipping it up in the kitchen, I’m chef-ing up hits/Just look at the flick of the wrist/I’ve been killing this slit wrist with that pen game[…].” The bit about “killing this slit wrist,” in particular, is clever and was a pleasant surprise. I’ve listened to this song many times, mostly when the song was first debuted as a single, and I only just today noticed that line.  
     </p>
     <br>
-    <h2>"Trust Issues"</h2>
+    <h2 class="heading">"Trust Issues"</h2>
     <p>“Trust Issues” is a pretty straight-forward song. It is about how, from Cheeky’s perspective, the people in his life “think that they’re worth” his time but leave him with “scars on [his] back from the knives [they’ve] inserted.” The analogy explains how people, whose friendship he has given time and effort into nurturing, have betrayed him in some way or another. The evidence of these betrayals are the visible scars he wears on his skin. The song explores how, ultimately, no one should be trusted. This is a song from the perspective of someone who seems to have given others the opportunity to prove themselves worthy of trust, but has found through experience, counsel, and scripture the futility of such an effort. 
     <br>
     <br>
@@ -67,7 +77,7 @@
         My favorite line from this song is “A moment of silence for the ones that I cut off/I wish I could keep you around, but I cannot.” I could write about some of the production elements that I find intriguing, but I fear I’m writing too much as it is. 
     </p>
     <br>
-    <h2>"Clean Out The Register" - Kendell Malik</h2>
+    <h2 class="heading">"Clean Out The Register" - Kendell Malik</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit obcaecati corrupti, aliquid voluptatum repellat magnam aperiam porro laborum, vel cumque voluptate expedita nesciunt necessitatibus id voluptas minima. Sit reiciendis cupiditate architecto nemo. Ratione quisquam cumque perspiciatis ipsam iste nulla cum voluptate inventore sunt harum quas iusto suscipit totam quo, quae, laboriosam exercitationem incidunt, officia deleniti facilis. 
     <br>
     <br>    
@@ -82,7 +92,46 @@
     <br>
     <br>
     <h1>More From The Artist</h1>
-    <a href="about.html">Cheeky Banter</a>
-
+    <a href="about.html" target="_blank">Cheeky Banter</a>
+    <br>
+    <br>
+    <h1>Sign-Up For Artist Updates</h1>
+    <form action="process.js" method="POST">
+        <fieldset>
+            <label for="firstname">First Name</label>
+            <br>
+            <input id="firstname" type="text" placeholder="Enter your First Name">
+            <br>
+            <label for="lastname">Last Name</label>
+            <br>
+            <input id="lastname" type="text" placeholder="Enter your Last Name">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your Email">
+            <br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" placeholder="Enter Today's Date">
+            <br>
+            <label for="age">Age</label>
+            <br>
+            <input id="number" type="number" min="0" max="100">
+            <br>
+            <label for="telephonenumber">Telephone Number</label>
+            <br>
+            <input id="telephonenumber" type="telephone" placeholder="Telephone Number">
+            <br>
+            <label for="drop-down">Would you like to opt in to receive exclusive content from this artist?</label>
+            <br>
+                <select name="drop-down" id="drop-down">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Maybe">Maybe</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+        </fieldset>
+    </form>
 </body>
 </html>

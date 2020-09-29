@@ -16,6 +16,7 @@
         <br>
         <li><a href="https://soundcloud.com/shammah_immanuel/albums" target="_blank"><i>Sad Basement Music</i></a></li>
     </ul>
+    <br>
     <h1>Singles</h1>
     <ul>
         <li><a href="https://www.youtube.com/playlist?list=OLAK5uy_ldE0oKvIS7X5ud9lUCEtBzrNJ64IpU0rY" target="_blank">"4 Da Weakend" - Sahmir Short</a></li>
@@ -28,17 +29,17 @@
     </ul>
     <br>
     <h1>Booking Information</h1>
-    <ol>
+    <ul>
         <li>Telephone</li>
         <br>
         <ul>
-        <li>770-000-0000</li>
+            <li>770-000-0000</li>
         </ul>
         <br>
         <li>Email</li>
         <br>
         <ul>
-        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=marquitakelder@gmail.com&su=Subject Line&body=Hello" target="_blank">cheekybanter@gmail.com</a></li>
+        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=marquitakelder@gmail.com&su=Booking Request&body=Hello" target="_blank">contactmeforbooking@gmail.com</a></li>
         </ul>
         <br>
         <li>Websites</li>
@@ -50,6 +51,43 @@
         <ul>
         <li><a href="https://www.youtube.com/channel/UCaDgbeTf9EB6LB-nSOSmrtg">YouTube</a></li>
         </ul>
-    </ol>
+        <br>
+        <li>Form</li>
+        <br>
+        <form action="process.js" method="POST">
+            <fieldset>
+                <label for="firstname">First Name</label>
+                <br>
+                <input id="firstname" type="text" placeholder="Enter your First Name">
+                <br>
+                <label for="lastname">Last Name</label>
+                <br>
+                <input id="lastname" type="text" placeholder="Enter your Last Name">
+                <br>
+                <label for="businessname">Business Name</label>
+                <br>
+                <input id="businessname" type="text" placeholder="Enter your Business Name">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" placeholder="Enter your Email">
+                <br>
+                <label for="date">Date</label>
+                <br>
+                <input type="date" placeholder="Enter Today's Date">
+                <br>   
+                <label for="telephonenumber">Telephone Number</label>
+                <br>
+                <input id="telephonenumber" type="telephone" placeholder="Telephone Number">
+                <br>
+                <label for="textarea">Booking Details</label>
+                <br>
+                <textarea name="Booking Details" id="bookingdetails" placeholder="Enter Booking Details"
+                cols="50" rows="20"></textarea>
+                <br>  
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </ul>
 </body>
 </html>
