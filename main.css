@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(118, 196, 196);
+}
+h1 {
+    color: black;
+}
+div {
+    background: white;
+    border-color: black;
+    border-style: groove;
+    padding: 3px;
+    margin: 3px;
+}
+div#b {
+    background: white;
+    border-color: aquamarine;
+    border-style: double;
+    padding: 3px;
+    margin: 3px;
+}
+div#c {
+    background: white;
+    border-color: aquamarine;
+    border-style: double;
+    width: 1550px;
+    height: 200px;
+}
+p#b {
+    width: 50%;
+    height: 50%;
+}
