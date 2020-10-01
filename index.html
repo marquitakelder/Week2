@@ -151,8 +151,10 @@
     <a href="#top">Top</a>
     <br>
     <br>
-    <div id="b"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo, praesentium fugiat quod mollitia alias, ullam numquam porro officia nihil nobis fuga voluptatum. Quo optio nihil eos, assumenda amet saepe?</p></div>
+    <!-- ! You should NOT use the same id twice. Line 154 & 157 both have id="b". Ids must be unique values. If you want to use the same value use a class. -->
+    <!-- ! I changed the value of the id from "b" to "a" on line 156 -->
+    <div id="a" class="aqua-border"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo, praesentium fugiat quod mollitia alias, ullam numquam porro officia nihil nobis fuga voluptatum. Quo optio nihil eos, assumenda amet saepe?</p></div>
     <br>
-    <div id="c"><p id="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti saepe veritatis pariatur voluptatibus, totam dolorem distinctio dolores quam maxime ut sed quaerat necessitatibus similique, adipisci molestias esse sapiente dolorum consectetur.</p></div>
+    <div id="c" class="aqua-border"><p id="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti saepe veritatis pariatur voluptatibus, totam dolorem distinctio dolores quam maxime ut sed quaerat necessitatibus similique, adipisci molestias esse sapiente dolorum consectetur.</p></div>
 </body>
 </html>

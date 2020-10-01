@@ -1,31 +1,56 @@
+/* ! I like to put an blank line between each style rule, makes it a little easier to read. I added some in.*/
+
 body {
-    background-color: rgb(118, 196, 196);
+	background-color: rgb(118, 196, 196);
 }
+
 h1 {
-    color: black;
+	color: black;
 }
+
 div {
-    background: white;
-    border-color: black;
-    border-style: groove;
-    padding: 3px;
-    margin: 3px;
+	background: white;
+	border-color: black;
+	border-style: groove;
+	padding: 3px;
+	margin: 3px;
 }
-div#b {
-    background: white;
-    border-color: aquamarine;
-    border-style: double;
-    padding: 3px;
-    margin: 3px;
+
+/* 
+? The selector you have div#b { } will select a div with the id of b. The selector div #b { } will select any element with the id of b nested inside of a div. That space is a subtle but VERY important difference.
+
+? Since Ids should be unique we don't have to specify div#b we can just specify #b since we should only have one instance of that id on the page.
+
+? I commented out 31-33 & 44-47 and added a class called aqua-border since the styles where the same between the two this is a good use for a class so we can apply it in multiple places. Though Ids have to be unique classes do not, we can use them in multiple different places. 
+
+! Reach out to me if you have any questions about any of the above concepts as they are CRITICAL moving forward.
+
+*/
+
+#a {
+	/* !I reformatted all of these selectors, check out the comments above. */
+	/* background: white;
+	border-color: aquamarine;
+	border-style: double; */
+	padding: 3px;
+	margin: 3px;
 }
-div#c {
-    background: white;
-    border-color: aquamarine;
-    border-style: double;
-    width: 1550px;
-    height: 200px;
+
+#b {
+	width: 50%;
+	height: 50%;
 }
-p#b {
-    width: 50%;
-    height: 50%;
+
+#c {
+	/* background: white;
+	border-color: aquamarine;
+	border-style: double; */
+	width: 1550px;
+	height: 200px;
+}
+
+.aqua-border {
+	/* ! You didn't specify a border-width so I left that out, but remember you can always specify one check out, something like border-width: 5px; vs border-width: 1px; */
+	border: double aquamarine; /* ? I'm using the shorthand here. */
+	background: white;
 }
