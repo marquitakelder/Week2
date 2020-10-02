@@ -1,5 +1,10 @@
 /* ! I like to put an blank line between each style rule, makes it a little easier to read. I added some in.*/
 
+/* ? I just like san-serif fonts */
+* {
+	font-family: sans-serif;
+}
+
 body {
 	background-color: rgb(118, 196, 196);
 }
@@ -24,7 +29,6 @@ div {
 ? I commented out 31-33 & 44-47 and added a class called aqua-border since the styles where the same between the two this is a good use for a class so we can apply it in multiple places. Though Ids have to be unique classes do not, we can use them in multiple different places. 
 
 ! Reach out to me if you have any questions about any of the above concepts as they are CRITICAL moving forward.
-
 */
 
 #a {
